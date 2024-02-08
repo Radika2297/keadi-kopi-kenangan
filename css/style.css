@@ -91,7 +91,7 @@ body {
 
 .hero {
 	min-height: 100vh;
-	background-image: url(/img/header-bg.jpg);
+	background-image: url(../img/header-bg.jpg);
 	display: flex;
 	align-items: center;
 	background-size: cover;
