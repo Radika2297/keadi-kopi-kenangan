@@ -53,3 +53,9 @@ document.querySelector(".modal .close-icon").onclick = (e) => {
 	modal.style.display = "none";
 	e.preventDefault();
 };
+
+window.onclick = (e) => {
+	if (e.terget === modal) {
+		modal.style.display = "none";
+	}
+};
